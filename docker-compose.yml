@@ -1,11 +1,10 @@
 version: '3'
 
-service: 
- nginx:
-  image:
-mi_primer_dockerfile
-  ports:
-   - "80:80"
-  volumes:
-   - ./nginx.conf:/etc/nginx/nginx.conf
-  restart: always
+services:
+  nginx:
+    image: mi_primer_dockerfile
+    ports:
+     - "80:80"
+    volumes:
+     - ./nginx.conf:/src/nginx.conf
+    restart: always
