@@ -10,3 +10,4 @@ Tener instalado en el sistema operativo donde vamos a trabajar, Docker y docker-
 9.Guardamos ambos archivos y los cerramos.
 10.Ejecutamos el siguiete comando sudo docker-compose up -d
 11.Para detener el contenedor ejecutamos: sudo docker-compose down 
+dksdhshda
